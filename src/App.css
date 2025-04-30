@@ -1,0 +1,63 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    padding: 6px;
+    row-gap: 14px;
+    grid-template-columns: 18px 1fr 18px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+.ticket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 12px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+}
+.button{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: blueviolet;
+    color: blue;
+    border: none;
+    box-shadow:4px,4px,4px,4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+.select{
+    height: 70vh;
+    width: 300vw;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+
+}
+input{
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
