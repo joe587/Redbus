@@ -29,7 +29,7 @@ function App() {
             ticket.setFontSize(20)
             ticket.setTextColor(8, 56, 229)
             ticket.text("Ticket Booking Confirmation",60,20)
-          
+          ticket.addImage("./Redbus.jpeg", 50, 25);
             ticket.text("Passenger Details",50,40)
             //ticket.addImage("./Redbus.jpeg", 50, 25);
 
